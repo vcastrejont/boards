@@ -1,0 +1,18 @@
+{
+  "name": "boards",
+  "description": "Boards for planing, Kanban and retrospective",
+  "main": "app.js",
+  "authors": [
+    "Victor Castrejon <vcastrejont@gmail.com>"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/vcastrejont/boards",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ]
+}

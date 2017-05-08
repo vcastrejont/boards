@@ -1,0 +1,92 @@
+@import url(http://fonts.googleapis.com/css?family=Raleway:200,400,500,300);
+@import url(http://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700);
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,600);
+@import "animate.css";
+body {
+  background-color: #fbfcfd;
+  font-family: 'Open Sans', sans-serif;
+}
+h1 {
+  text-align: center;
+  line-height: 5rem;
+  font-size: 1.6rem;
+}
+nav.bg-boards {
+  background-color: #3f4458;
+}
+section {
+  background-color: #fff;
+  border-radius: 2px;
+  box-shadow: 0px 5px 20px 0px rgba(179, 187, 213, 0.4);
+  padding: 20px;
+  border-style: solid;
+  border-width: 15px 1px 1px 1px;
+  text-align: center;
+  border-color: #757575;
+}
+section h2 {
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+section .cards {
+  text-align: left;
+  font-weight: 200;
+  font-size: .8rem;
+}
+section .cards article {
+  margin-top: -1px;
+  border: 1px solid #e0e0e0;
+  width: 100%;
+  padding: 10px;
+}
+section .cards article::before {
+  height: 5px;
+  background-color: #eceff1;
+  display: block;
+  cursor: move;
+  margin-bottom: 5px;
+  content: " ";
+}
+section .cards article footer {
+  text-align: right;
+}
+section .cards article footer a {
+  text-decoration: none;
+  color: #292b2c;
+}
+section .cards article footer a i {
+  color: #e0e0e0;
+  transition: all .1s ;
+}
+section .cards article footer a i.liked {
+  color: #ef5350;
+}
+section .cards article footer a:hover i {
+  color: #ef5350;
+}
+section .add {
+  margin-top: 1.8rem;
+  background-color: transparent;
+  font-size: .8rem;
+  font-weight: 200;
+  border: 0;
+  display: block;
+  color: #292b2c;
+}
+section .add:hover {
+  color: #42a5f5;
+  text-decoration: none;
+}
+.color1 {
+  border-color: #4caf50;
+}
+.color2 {
+  border-color: #039be5;
+}
+.color3 {
+  border-color: #fb8c00;
+}
+.color4 {
+  border-color: #4fc3f7;
+}
